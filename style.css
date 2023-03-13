@@ -72,7 +72,7 @@
   background-color: rgb(39, 42, 50);
   background-image: url("./images/pattern_bg.png");
   background-repeat: repeat;
-  top: 70%;
+  top: 55%;
   width: 110vw;
   height: auto;
   padding-bottom: 200px;
@@ -82,7 +82,7 @@
   position: absolute;
   color: white;
   font-family: "Circular-Loom", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
   left: 50%;
   top: 5%;
@@ -176,4 +176,58 @@
   color: white;
   font-size: 1.1rem;
   border: none;
+}
+
+.speakers {
+  height: auto;
+}
+
+.speakers h3 {
+  height: auto;
+  position: absolute;
+  font-size: 1.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  left: 50%;
+  top: 130%;
+  transform: translateX(-50%);
+}
+
+.speaker img {
+  position: absolute;
+  top: 150%;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.speaker-img img {
+  width: 100%;
+  max-width: 150px;
+  margin-bottom: 10px;
+  top: 150%;
+  left: 5%;
+}
+
+.speaker-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.speaker-org {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.speaker-desc {
+  font-size: 1rem;
+  line-height: 1.4;
 }
