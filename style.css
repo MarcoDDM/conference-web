@@ -200,6 +200,7 @@
 }
 
 .speaker {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,27 +208,62 @@
   margin-bottom: 20px;
 }
 
+.speaker-one {
+  top: 76rem;
+}
+
+.speaker-two {
+  top: 81rem;
+}
+
+.speaker-three {
+  top: 86rem;
+}
+
+.speaker-four {
+  top: 91rem;
+}
+
+.speaker-five {
+  top: 96rem;
+}
+
+.speaker-six {
+  top: 101rem;
+}
+
 .speaker-img img {
   width: 100%;
   max-width: 150px;
   margin-bottom: 10px;
-  top: 150%;
   left: 5%;
+  top: 140%;
 }
 
 .speaker-name {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
+  position: relative;
+  left: 2rem;
+  top: 10.9rem;
 }
 
 .speaker-org {
   font-size: 1rem;
   color: #666;
   margin-bottom: 5px;
+  position: relative;
+  left: 5.5rem;
+  top: 10.9rem;
 }
 
 .speaker-desc {
   font-size: 1rem;
   line-height: 1.4;
+  position: relative;
+  left: 5rem;
+  width: 50%;
+  text-align: left;
+  top: 12rem;
 }
