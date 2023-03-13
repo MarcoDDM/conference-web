@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,400;0,900&display=swap");
+
+.body {
+  width: 100vw;
+}
+.nav img {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 40px;
+}
+
+.head {
+  position: absolute;
+  top: 15%;
+}
+
+.head subtitle {
+  position: relative;
+  left: 5%;
+  font-size: 1.4rem;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.head h1 {
+  position: relative;
+  left: 5%;
+  font-family: "Circular-Loom", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url("images/tdx_backbround.jpg");
+}
+
+.head .message {
+  top: 1rem;
+  color: #727272;
+  font-weight: bold;
+  position: relative;
+  top: 1rem;
+  left: 10%;
+  max-width: 85vw;
+  line-height: 1.4rem;
+}
+
+.head .date-location {
+  position: relative;
+  top: 4rem;
+  left: 10%;
+}
+
+.head .date {
+  font-family: "Circular-Loom";
+  font-weight: 900;
+  font-size: 2.5rem;
+  left: 10%;
+  color: #727272;
+}
+
+.head .location {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #727272;
+}
+
+.program {
+  position: absolute;
+  background-color: rgb(39, 42, 50);
+  background-image: url("./images/pattern_bg.png");
+  background-repeat: repeat;
+  top: 70%;
+  width: 110vw;
+  height: auto;
+  padding-bottom: 250px;
+}
+
+.program h2 {
+  position: absolute;
+  color: white;
+  font-family: "Circular-Loom", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+}
+
+.program-sections {
+  position: relative;
+  top: 6rem;
+}
+
+.program-section {
+  background-color: rgb(255 252 252 / 23%);
+  width: 80%;
+  height: 10%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin: 0px 0px 0.5em;
+  padding: 16px 0px;
+  vertical-align: middle;
+  display: table;
+  height: auto;
+  overflow: auto;
+  width: 80%;
+  left: 5%;
+}
+
+.one {
+  top: 20%;
+}
+
+.two {
+  top: 40%;
+}
+
+.three {
+  top: 60%;
+}
+
+.four {
+  top: 80%;
+}
+
+.five {
+  top: 100%;
+}
+
+.program-icon {
+  position: relative;
+  top: -1rem;
+}
+
+.program-section img {
+  position: relative;
+  top: 1rem;
+  width: 50px;
+  left: 3%;
+}
+
+.program-title {
+  position: absolute;
+  left: 20%;
+  top: 2rem;
+  font-family: "Circular-Loom";
+  font-weight: 500;
+  color: #ec5242;
+}
+
+.program-description {
+  position: absolute;
+  width: 50%;
+  left: 46%;
+  top: 20%;
+  font-size: 1rem;
+  font-family: math;
+  color: white;
+}
+
+.see-program button {
+  width: 60%;
+  position: relative;
+  top: 8rem;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  left: 16%;
+  line-height: 66px;
+  background-color: #ec5242;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+}
