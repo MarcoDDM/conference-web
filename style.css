@@ -505,6 +505,81 @@
     top: 5rem;
     left: 5%;
   }
+
+  .program {
+    position: absolute;
+    background-color: rgb(39, 42, 50);
+    background-image: url("./images/pattern_bg.png");
+    background-repeat: repeat;
+    top: 55%;
+    width: 110vw;
+    height: auto;
+    padding-bottom: 200px;
+  }
+
+  .program h2 {
+    position: absolute;
+    color: white;
+    font-family: "Circular-Loom", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+  }
+
+  .program-sections {
+    position: relative;
+    top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .program-section {
+    background-color: rgb(255 252 252 / 23%);
+    position: relative;
+    margin: 0 0.5em 1em;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    height: auto;
+    overflow: auto;
+    width: calc(20% - 1em);
+  }
+
+  .program-section img {
+    width: 50px;
+    margin-right: 1rem;
+  }
+
+  .program-title {
+    font-family: "Circular-Loom", sans-serif;
+    font-weight: 500;
+    color: #ec5242;
+    margin-bottom: 0.5rem;
+  }
+
+  .program-description {
+    font-size: 1rem;
+    font-family: math, sans-serif;
+    color: white;
+  }
+
+  .see-program button {
+    width: 60%;
+    position: relative;
+    top: 8rem;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    left: 16%;
+    line-height: 66px;
+    background-color: #ec5242;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+  }
 }
 
 .nav-dsk {
