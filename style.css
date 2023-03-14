@@ -392,6 +392,19 @@
   font-weight: 600;
 }
 
+.past-convention .past-title {
+  font-size: 2rem;
+  color: #2c2c2c;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+}
+
+.past-convention .past-desc {
+  position: relative;
+  top: 2rem;
+  font-size: 1rem;
+}
+
 .partners {
   width: 100vw;
   height: 350px;
@@ -478,4 +491,9 @@ footer {
     margin-left: 0;
     margin-top: 10px;
   }
+}
+
+.footer-about {
+  position: relative;
+  top: 60rem;
 }
