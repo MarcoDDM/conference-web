@@ -448,6 +448,7 @@
   .logo {
     display: none;
   }
+
   footer {
     flex-direction: column;
     justify-content: center;
@@ -470,6 +471,7 @@
   .nav {
     display: none;
   }
+
   .partners-logos img {
     width: calc(100% / 5);
     margin-bottom: 0;
