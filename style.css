@@ -397,12 +397,23 @@
   color: #2c2c2c;
   font-family: "Lato", sans-serif;
   font-weight: 800;
+  position: relative;
+  display: grid;
 }
 
 .past-convention .past-desc {
   position: relative;
   top: 2rem;
   font-size: 1rem;
+}
+
+.past-convention .past-img {
+  position: relative;
+  top: 4rem;
+  position: relative;
+  top: 4rem;
+  display: grid;
+  width: 100%;
 }
 
 .partners {
