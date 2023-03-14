@@ -535,6 +535,7 @@
     top: 6rem;
     display: flex;
     flex-wrap: wrap;
+    width: 90vw;
   }
 
   .program-section {
