@@ -3,6 +3,7 @@
 .body {
   width: 100vw;
 }
+
 .nav img {
   position: absolute;
   top: 5%;
@@ -15,7 +16,7 @@
   top: 15%;
 }
 
-.head subtitle {
+.head sub {
   position: relative;
   left: 5%;
   font-size: 1.4rem;
@@ -28,9 +29,9 @@
   position: relative;
   left: 5%;
   font-family: "Lilita One", sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 900;
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("images/tdx_backbround.jpg");
@@ -42,7 +43,6 @@
   color: #727272;
   font-weight: bold;
   position: relative;
-  top: 1rem;
   left: 10%;
   max-width: 85vw;
   line-height: 1.4rem;
@@ -55,7 +55,7 @@
 }
 
 .head .date {
-  font-family: "Circular-Loom";
+  font-family: "Circular-Loom", sans-serif;
   font-weight: 900;
   font-size: 2.5rem;
   left: 10%;
@@ -73,7 +73,7 @@
   top: 10%;
 }
 
-.head-about subtitle {
+.head-about sub {
   position: relative;
   text-align: center;
   display: flex;
@@ -92,7 +92,6 @@
   font-family: "Lilita One", sans-serif;
   font-size: 2.8rem;
   font-weight: 900;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("images/tdx_backbround.jpg");
@@ -105,8 +104,6 @@
   font-weight: bold;
   font-size: 0.9rem;
   position: relative;
-  top: 3rem;
-  line-height: 1.4rem;
   top: 1rem;
   left: 10%;
   max-width: 85vw;
@@ -201,13 +198,9 @@
 
 .program-section {
   background-color: rgb(255 252 252 / 23%);
-  width: 80%;
-  height: 10%;
-  overflow: hidden;
-  width: 100%;
   position: relative;
-  margin: 0px 0px 0.5em;
-  padding: 16px 0px;
+  margin: 0 0 0.5em;
+  padding: 16px 0;
   vertical-align: middle;
   display: table;
   height: auto;
@@ -252,7 +245,7 @@
   position: absolute;
   left: 20%;
   top: 2rem;
-  font-family: "Circular-Loom";
+  font-family: "Circular-Loom", sans-serif;
   font-weight: 500;
   color: #ec5242;
 }
@@ -263,7 +256,7 @@
   left: 46%;
   top: 20%;
   font-size: 1rem;
-  font-family: math;
+  font-family: math, sans-serif;
   color: white;
 }
 
@@ -378,6 +371,7 @@
 
 .past-convention {
   position: relative;
+
   /* width: 95%; */
   left: 3%;
   top: 49rem;
@@ -408,8 +402,6 @@
 }
 
 .past-convention .past-img {
-  position: relative;
-  top: 4rem;
   position: relative;
   top: 4rem;
   display: grid;
