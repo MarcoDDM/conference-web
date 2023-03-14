@@ -444,7 +444,8 @@
 }
 
 @media (max-width: 768px) {
-  .nav-dsk {
+  .nav-dsk,
+  .logo {
     display: none;
   }
   footer {
@@ -472,6 +473,37 @@
   .partners-logos img {
     width: calc(100% / 5);
     margin-bottom: 0;
+  }
+
+  .head {
+    position: absolute;
+    top: 15%;
+    width: 60%;
+  }
+
+  .head h1 {
+    position: relative;
+    left: 4.5%;
+    font-family: "Lilita One", sans-serif;
+    font-size: 5.6rem;
+    font-weight: 900;
+  }
+
+  .head .message {
+    top: 3rem;
+    font-family: "Lato", sans-serif;
+    color: #727272;
+    font-weight: bold;
+    position: relative;
+    left: 5%;
+    width: 65vw;
+    line-height: 1.4rem;
+  }
+
+  .head .date-location {
+    position: relative;
+    top: 5rem;
+    left: 5%;
   }
 }
 
