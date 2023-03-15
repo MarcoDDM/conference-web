@@ -480,7 +480,15 @@
   .head {
     position: absolute;
     top: 15%;
-    width: 60%;
+    width: 100%;
+    height: 50%;
+    background-image: url(images/seneca_background.jfif);
+    background-size: cover;
+  }
+
+  .head-container {
+    position: absolute;
+    top: 13%;
   }
 
   .head h1 {
