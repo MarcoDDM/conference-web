@@ -175,7 +175,7 @@
   background-image: url("./images/pattern_bg.png");
   background-repeat: repeat;
   top: 55%;
-  width: 110vw;
+  width: 100vw;
   height: auto;
   padding-bottom: 200px;
 }
@@ -301,8 +301,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -337,14 +335,17 @@
   left: 5%;
   top: 140%;
 }
-
+.speakers-info {
+  position: relative;
+  left: 50%;
+}
 .speaker-name {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
   position: relative;
-  left: 2rem;
+  left: 0;
   top: 10.9rem;
 }
 
@@ -354,7 +355,7 @@
   color: #666;
   margin-bottom: 5px;
   position: relative;
-  left: 5.5rem;
+  left: 0;
   top: 10.9rem;
 }
 
@@ -363,7 +364,7 @@
   font-size: 1rem;
   line-height: 1.4;
   position: relative;
-  left: 5rem;
+  left: 0;
   width: 50%;
   text-align: left;
   top: 12rem;
@@ -410,10 +411,11 @@
 
 .partners {
   width: 100vw;
-  height: 350px;
+  height: 32vh;
   background-color: #414246;
   position: absolute;
   top: 270%;
+  margin-bottom: 15%;
 }
 
 .partners h3 {
@@ -434,6 +436,7 @@
   align-items: center;
   position: relative;
   top: 8rem;
+  padding-bottom: 14%;
 }
 
 .partners-logos img {
@@ -522,7 +525,7 @@
     background-image: url("./images/pattern_bg.png");
     background-repeat: repeat;
     top: 55%;
-    width: 110vw;
+    width: 100vw;
     height: auto;
     padding-bottom: 200px;
   }
@@ -667,6 +670,5 @@ footer {
   position: relative;
   width: 206px;
   top: -2.4rem;
-  left: 52%;
   text-align: left;
 }
