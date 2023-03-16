@@ -463,6 +463,9 @@
 .footer-about {
   position: relative;
   top: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
