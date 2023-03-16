@@ -267,12 +267,12 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  left: 16%;
   line-height: 66px;
   background-color: #ec5242;
   color: white;
   font-size: 1.1rem;
   border: none;
+  cursor: pointer;
 }
 
 .speakers {
@@ -585,6 +585,7 @@
     font-weight: 500;
     color: #ec5242;
     margin-bottom: 0.5rem;
+    line-height: 50px;
   }
 
   .program-description {
@@ -593,20 +594,41 @@
     color: white;
   }
 
+  .see-program {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .see-program button {
-    width: 60%;
+    width: 40%;
     position: relative;
     top: 8rem;
     height: 70px;
     display: flex;
     text-align: center;
     justify-content: center;
-    left: 16%;
     line-height: 66px;
     background-color: #ec5242;
     color: white;
     font-size: 1.1rem;
     border: none;
+    cursor: pointer;
+  }
+
+  .speakers h3 {
+    height: auto;
+    position: absolute;
+    font-size: 1.4rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 98%;
+    transform: translateX(-50%);
   }
 }
 
@@ -620,7 +642,7 @@
 
 .nav-dsk ul li {
   display: inline-block;
-  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .nav-dsk ul li a {
