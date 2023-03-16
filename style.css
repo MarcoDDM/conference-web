@@ -11,6 +11,10 @@
   width: 40px;
 }
 
+.headline-container {
+  padding-left: 5%;
+}
+
 .head {
   position: absolute;
   top: 15%;
@@ -445,7 +449,7 @@
   margin-bottom: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav-dsk,
   .logo {
     display: none;
@@ -614,13 +618,6 @@
   top: 3rem;
 }
 
-.nav-dsk ul {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .nav-dsk ul li {
   display: inline-block;
   margin-left: 10px;
@@ -647,11 +644,14 @@
 
 .nav-dsk .logo {
   float: left;
-  margin-left: 5%;
+  padding-left: 10%;
   max-width: 100%;
   height: auto;
 }
-
+nav .nav-dsk ul {
+  display: flow-root;
+  width: 100%;
+}
 footer {
   display: flex;
   flex-wrap: wrap;
