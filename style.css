@@ -490,6 +490,15 @@
     background-size: cover;
   }
 
+  .head sub {
+    position: relative;
+    font-size: 1.4rem;
+    color: #ec5242;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    padding-left: 4.7%;
+  }
+
   .headline-container {
     position: absolute;
     top: 13%;
@@ -554,13 +563,12 @@
   .program-section {
     background-color: rgb(255 252 252 / 23%);
     position: relative;
-    margin: 0 0.5em 1em;
-    padding: 16px 0;
+    margin: 0 0.1em;
     display: flex;
     align-items: center;
-    height: auto;
+    height: 100px;
     overflow: auto;
-    width: calc(20% - 1em);
+    width: calc(19%);
   }
 
   .program-section img {
