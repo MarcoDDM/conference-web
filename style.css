@@ -531,7 +531,10 @@
 
 @media (min-width: 768px) {
   .nav,
-  .head-about sub {
+  .head-about sub,
+  .mobile-menu,
+  .close,
+  .hamburger {
     display: none;
   }
 
@@ -877,7 +880,7 @@ footer {
 
 .footer-landing {
   position: relative;
-  top: 140rem;
+  top: 105rem;
 }
 
 .footer-left img {
