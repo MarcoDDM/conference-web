@@ -212,13 +212,15 @@ If you like this project you can follow me and give the project a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my coding partners.
+I would like to thank to my coding partners. Also thank you to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+
+Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
 
 This project is [MIT](./MIT.md) licensed.
 

@@ -511,17 +511,6 @@
 
   footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .footer-right {
-    margin-left: 0;
-    margin-top: 10px;
-  }
-
-  footer {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -903,6 +892,7 @@
     position: relative;
     top: 105rem;
   }
+
   .footer-left img {
     max-width: 100%;
     height: auto;
