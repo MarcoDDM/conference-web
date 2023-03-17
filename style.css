@@ -4,6 +4,43 @@
   width: 100vw;
 }
 
+.active {
+  display: flex;
+}
+
+.hamburger {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 40px;
+}
+
+.mobile-menu.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  gap: 29px;
+  z-index: 1;
+  position: absolute;
+  color: white;
+  background-color: rgb(26 26 26 / 97%);
+  width: 100vw;
+  height: 100%;
+}
+
+.mobile-menu.active a {
+  color: #fff;
+  font-family: "CIRCULAR-LOOM";
+  text-decoration: none;
+  text-align: left;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
 .nav img {
   position: absolute;
   top: 5%;
@@ -456,9 +493,19 @@
   margin-bottom: 1rem;
 }
 
+.close {
+  position: absolute;
+  top: 42px;
+  left: 5%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
 @media (max-width: 767px) {
   .nav-dsk,
-  .logo {
+  .logo,
+  .mobile-menu {
     display: none;
   }
 
