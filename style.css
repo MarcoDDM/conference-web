@@ -639,10 +639,10 @@
   }
 
   .speakers {
-    display: grid;
-    grid-template-columns: repeat(3);
     grid-gap: 20px;
     top: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .speaker {
@@ -742,6 +742,7 @@ footer {
 .footer-right {
   margin-left: 10px;
   position: relative;
-  width: 206px;
-  text-align: left;
+  font-size: 15px;
+  width: 192px;
+  text-align: right;
 }
