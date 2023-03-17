@@ -287,7 +287,7 @@
   top: 460px;
 }
 
-.speakers h3 {
+.speakers .featured-title {
   height: auto;
   position: absolute;
   font-size: 1.4rem;
@@ -624,19 +624,18 @@
     cursor: pointer;
   }
 
-  .speakers h3 {
-    height: auto;
+  .speakers .featured-title {
     position: absolute;
+    left: 50rem;
+    width: 400px;
+    display: flex;
+    transform: translateX(-51%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-size: 1.4rem;
     font-family: "Lato", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 50%;
-    top: 98%;
-    transform: translateX(-50%);
+    font-weight: 600;
   }
 
   .speakers {
