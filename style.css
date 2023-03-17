@@ -493,6 +493,48 @@
     margin-bottom: 0;
   }
 
+  .nav-dsk {
+    float: right;
+    width: 100vw;
+    text-align: right;
+    position: relative;
+    top: 3rem;
+  }
+
+  .nav-dsk ul li {
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  .nav-dsk ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #504e4e;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Lato", "Circular Room", sans-serif;
+    text-decoration: none;
+  }
+
+  .nav-dsk ul li a:hover {
+    color: #d35400;
+  }
+
+  .nav-dsk .menu-highlight {
+    border: 6px solid;
+    border-color: #ff4900;
+  }
+
+  .nav-dsk .logo {
+    float: left;
+    padding-left: 5%;
+    max-width: 100%;
+    height: auto;
+  }
+  nav .nav-dsk ul {
+    display: flow-root;
+    width: 100%;
+  }
   .head {
     position: absolute;
     top: 15%;
@@ -674,48 +716,6 @@
   }
 }
 
-.nav-dsk {
-  float: right;
-  width: 100vw;
-  text-align: right;
-  position: relative;
-  top: 3rem;
-}
-
-.nav-dsk ul li {
-  display: inline-block;
-  padding-left: 10px;
-}
-
-.nav-dsk ul li a {
-  display: block;
-  padding: 10px 15px;
-  color: #504e4e;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "Lato", "Circular Room", sans-serif;
-  text-decoration: none;
-}
-
-.nav-dsk ul li a:hover {
-  color: #d35400;
-}
-
-.nav-dsk .menu-highlight {
-  border: 6px solid;
-  border-color: #ff4900;
-}
-
-.nav-dsk .logo {
-  float: left;
-  padding-left: 10%;
-  max-width: 100%;
-  height: auto;
-}
-nav .nav-dsk ul {
-  display: flow-root;
-  width: 100%;
-}
 footer {
   display: flex;
   flex-wrap: wrap;
