@@ -489,11 +489,6 @@
     display: none;
   }
 
-  .partners-logos img {
-    width: calc(100% / 5);
-    margin-bottom: 0;
-  }
-
   .nav-dsk {
     float: right;
     width: 100vw;
@@ -532,10 +527,12 @@
     max-width: 100%;
     height: auto;
   }
+
   nav .nav-dsk ul {
     display: flow-root;
     width: 100%;
   }
+
   .head {
     position: absolute;
     top: 15%;
@@ -588,8 +585,8 @@
   .head-about {
     position: absolute;
     top: 20%;
-    right: 0px;
-    left: 0px;
+    right: 0;
+    left: 0;
   }
 
   .head-about .message-about {
@@ -610,6 +607,7 @@
 
   .logo-presentation .logo-title {
     width: 227px;
+
     /* height: 56px; */
     font-family: "Lato", sans-serif;
     font-style: normal;
