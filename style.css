@@ -32,7 +32,7 @@
 
 .mobile-menu.active a {
   color: #fff;
-  font-family: "CIRCULAR-LOOM";
+  font-family: "CIRCULAR-LOOM", sans-serif;
   text-decoration: none;
   text-align: left;
 }
@@ -360,11 +360,11 @@
 }
 
 .speaker-four {
-  top: 68rem;
+  top: 70rem;
 }
 
 .speaker-five {
-  top: 72rem;
+  top: 73rem;
 }
 
 .speaker-six {
@@ -877,7 +877,7 @@ footer {
 
 .footer-landing {
   position: relative;
-  top: 100rem;
+  top: 140rem;
 }
 
 .footer-left img {

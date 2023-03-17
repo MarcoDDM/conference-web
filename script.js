@@ -83,4 +83,3 @@ speakersData.forEach((speaker) => {
 
   speakersSection.appendChild(speakerElement);
 });
-
