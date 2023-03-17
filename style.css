@@ -691,6 +691,36 @@
     display: grid;
   }
 
+  .speaker-one {
+    top: 69rem;
+    left: 21rem;
+  }
+
+  .speaker-two {
+    top: 61.2rem;
+    left: 52rem;
+  }
+
+  .speaker-three {
+    top: 70rem;
+    left: 21rem;
+  }
+
+  .speaker-four {
+    top: 62rem;
+    left: 52rem;
+  }
+
+  .speaker-five {
+    top: 70rem;
+    left: 21rem;
+  }
+
+  .speaker-six {
+    top: 58.2rem;
+    left: 52rem;
+  }
+
   .speaker-img img {
     max-width: 100%;
     height: auto;
@@ -714,6 +744,20 @@
   .speaker-desc {
     text-align: justify;
   }
+
+  .partners {
+    width: 100vw;
+    height: 32vh;
+    background-color: #414246;
+    position: absolute;
+    top: 200%;
+    margin-bottom: 15%;
+  }
+
+  .partners-logos img {
+    width: calc(60% / 5);
+    margin-bottom: 0;
+  }
 }
 
 footer {
@@ -727,7 +771,7 @@ footer {
 
 .footer-landing {
   position: relative;
-  top: 142rem;
+  top: 100rem;
 }
 
 .footer-left img {
