@@ -173,7 +173,7 @@
   background-color: rgb(39, 42, 50);
   background-image: url("./images/pattern_bg.png");
   background-repeat: repeat;
-  top: 55%;
+  top: 60%;
   width: 100vw;
   height: auto;
   padding-bottom: 200px;
@@ -259,6 +259,12 @@
   color: white;
 }
 
+.see-program {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
 .see-program button {
   width: 60%;
   position: relative;
@@ -277,6 +283,8 @@
 
 .speakers {
   height: auto;
+  position: relative;
+  top: 460px;
 }
 
 .speakers h3 {
@@ -304,27 +312,27 @@
 }
 
 .speaker-one {
-  top: 76rem;
+  top: 56rem;
 }
 
 .speaker-two {
-  top: 81rem;
+  top: 60rem;
 }
 
 .speaker-three {
-  top: 86rem;
+  top: 64rem;
 }
 
 .speaker-four {
-  top: 91rem;
+  top: 68rem;
 }
 
 .speaker-five {
-  top: 96rem;
+  top: 72rem;
 }
 
 .speaker-six {
-  top: 101rem;
+  top: 76rem;
 }
 
 .speaker-img img {
@@ -629,6 +637,41 @@
     left: 50%;
     top: 98%;
     transform: translateX(-50%);
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-gap: 20px;
+    top: auto;
+  }
+
+  .speaker {
+    display: grid;
+  }
+
+  .speaker-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .speakers-info {
+    left: 110%;
+  }
+
+  .speaker-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  .speaker-org {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .speaker-desc {
+    text-align: justify;
   }
 }
 
