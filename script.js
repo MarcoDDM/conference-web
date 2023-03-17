@@ -23,47 +23,47 @@ menuLinks.forEach((link) => {
 
 const speakersData = [
   {
-    speakerName: "Richard Dawkins",
-    speakerOrg: "University of Oxford",
-    speakerDesc: "The Stoic Mind: Richard Dawkins on Applying Stoicism in a World of Science and Reason",
-    speakerImg: "images/speaker_01.png",
-    speakerClass: "speaker-one"
+    speakerName: 'Richard Dawkins',
+    speakerOrg: 'University of Oxford',
+    speakerDesc: 'The Stoic Mind: Richard Dawkins on Applying Stoicism in a World of Science and Reason',
+    speakerImg: 'images/speaker_01.png',
+    speakerClass: 'speaker-one',
   },
   {
-    speakerName: "Robert Greene",
-    speakerOrg: "University of Wisconsin",
-    speakerDesc: "The Mastery of Stoicism: Using Ancient Wisdom to Achieve Personal Power",
-    speakerImg: "images/speaker_02.png",
-    speakerClass: "speaker-two"
+    speakerName: 'Robert Greene',
+    speakerOrg: 'University of Wisconsin',
+    speakerDesc: 'The Mastery of Stoicism: Using Ancient Wisdom to Achieve Personal Power',
+    speakerImg: 'images/speaker_02.png',
+    speakerClass: 'speaker-two',
   },
   {
-    speakerName: "Massimo Pigliucci",
-    speakerOrg: "University of Connecticut",
-    speakerDesc: "Stoicism 101: A Practical Guide to Living with Virtue and Resilience",
-    speakerImg: "images/speaker_03.png",
-    speakerClass: "speaker-three"
+    speakerName: 'Massimo Pigliucci',
+    speakerOrg: 'University of Connecticut',
+    speakerDesc: 'Stoicism 101: A Practical Guide to Living with Virtue and Resilience',
+    speakerImg: 'images/speaker_03.png',
+    speakerClass: 'speaker-three',
   },
   {
-    speakerName: "Ryan Holiday",
-    speakerOrg: "UC Riverside (dropout)",
-    speakerDesc: "The Art of Stillness: Stoic Principles for Modern Life",
-    speakerImg: "images/speaker_04.png",
-    speakerClass: "speaker-four"
+    speakerName: 'Ryan Holiday',
+    speakerOrg: 'UC Riverside (dropout)',
+    speakerDesc: 'The Art of Stillness: Stoic Principles for Modern Life',
+    speakerImg: 'images/speaker_04.png',
+    speakerClass: 'speaker-four',
   },
   {
-    speakerName: "Sophia Shapira",
-    speakerOrg: "University of Pittsburgh",
-    speakerDesc: "The Feminine Face of Stoicism: Exploring Gender and Virtue in Ancient Philosophy",
-    speakerImg: "images/speaker_05.png",
-    speakerClass: "speaker-five"
+    speakerName: 'Sophia Shapira',
+    speakerOrg: 'University of Pittsburgh',
+    speakerDesc: 'The Feminine Face of Stoicism: Exploring Gender and Virtue in Ancient Philosophy',
+    speakerImg: 'images/speaker_05.png',
+    speakerClass: 'speaker-five',
   },
   {
-    speakerName: "Curtis Jackson",
-    speakerOrg: "Southside Jamaica Queens",
-    speakerDesc: "From the Streets to Stoicism: How the Philosophy of Marcus Aurelius Changed My Life",
-    speakerImg: "images/speaker_06.png",
-    speakerClass: "speaker-six"
-  }
+    speakerName: 'Curtis Jackson',
+    speakerOrg: 'Southside Jamaica Queens',
+    speakerDesc: 'From the Streets to Stoicism: How the Philosophy of Marcus Aurelius Changed My Life',
+    speakerImg: 'images/speaker_06.png',
+    speakerClass: 'speaker-six',
+  },
 ];
 
 const speakersSection = document.getElementById('speakers');
