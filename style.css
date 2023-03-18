@@ -138,6 +138,8 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 10%;
 }
 
 .head-about sub {
