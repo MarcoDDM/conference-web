@@ -134,7 +134,7 @@
 
 .head-about {
   background-image: url(images/about_bg.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -740,9 +740,13 @@
 
   .head-about {
     position: absolute;
-    top: 20%;
+    height: 50%;
+    padding-top: 3%;
+    top: 16%;
     right: 0;
     left: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .head-about .message-about {
@@ -761,10 +765,28 @@
     margin-right: auto;
   }
 
+  .logo-presentation {
+    background-color: hsla(240, 7%, 100%, 1);
+    height: 35vw;
+    position: relative;
+    top: 42rem;
+  }
+
+  .logo-presentation .logo-img {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    top: auto;
+    margin-top: 7rem;
+    border: 1px solid;
+    width: fit-content;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .logo-presentation .logo-title {
     width: 227px;
-
-    /* height: 56px; */
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -779,6 +801,26 @@
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-50%);
+    top: auto;
+  }
+
+  .logo-presentation .logo-message {
+    position: relative;
+    width: 100%;
+    top: auto;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .hr-about {
+    background-color: #ec5242;
+    width: 6%;
+    position: relative;
+    top: auto;
+    margin-top: -18px;
+    height: 3px;
+    border: none;
   }
 
   .program {
@@ -878,6 +920,13 @@
   .past-convention {
     left: 0%;
     display: block;
+    top: 40rem;
+    border: 2px solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: grey;
+    padding-top: 47px;
   }
 
   .past-convention .past-title {
@@ -999,10 +1048,10 @@
 
   .footer-about {
     position: relative;
-    top: 70rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 50rem;
     height: 30vh;
     background: #3e3e3e;
     margin-left: auto;
