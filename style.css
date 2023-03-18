@@ -550,6 +550,14 @@
   justify-content: center;
 }
 
+.footer {
+  position: relative;
+  top: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .nav,
   .head-about sub,
@@ -905,6 +913,68 @@
   .partners-logos img {
     width: calc(60% / 5);
     margin-bottom: 0;
+  }
+
+  .footer-about {
+    position: relative;
+    top: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    background: #3e3e3e;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-landing {
+    position: relative;
+    top: 60rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-container {
+    margin-left: auto;
+    width: 50vw;
+    margin-right: auto;
+  }
+
+  .footer-container .footer-left img {
+    filter: invert(100%);
+  }
+
+  .footer-container .footer-right {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: "Circular-Loom";
+  }
+
+  .footer-container-landing {
+    margin-left: auto;
+    width: 50vw;
+    margin-right: auto;
+  }
+
+  .footer-container-landing {
+    margin-left: auto;
+    width: 50vw;
+    margin-right: auto;
+  }
+
+  .footer-container-landing .footer-left img {
+    filter: invert(0%);
+  }
+
+  .footer-container-landing .footer-right {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: "Circular-Loom";
   }
 
   .footer-landing {
