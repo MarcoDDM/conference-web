@@ -321,7 +321,6 @@
 }
 
 .see-program button {
-  width: 60%;
   position: relative;
   top: 8rem;
   height: 70px;
@@ -329,11 +328,12 @@
   text-align: center;
   justify-content: center;
   line-height: 66px;
-  background-color: #ec5242;
+  background-color: #ec534200;
   color: white;
   font-size: 1.1rem;
   border: none;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .speakers {
@@ -783,16 +783,20 @@
     top: 6rem;
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .program-section {
-    background-color: rgb(255 252 252 / 23%);
+    background-color: rgb(255 252 252 / 10%);
     position: relative;
     margin: 0 0.1em;
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 145px;
+    text-align: center;
+    flex-direction: column;
     overflow: auto;
     width: calc(19%);
   }
@@ -803,17 +807,24 @@
   }
 
   .program-title {
+    position: relative;
+    left: 0%;
+    top: 0rem;
     font-family: "Circular-Loom", sans-serif;
     font-weight: 500;
     color: #ec5242;
-    margin-bottom: 0.5rem;
-    line-height: 50px;
+    margin-bottom: 0rem;
+    line-height: 0px;
   }
 
   .program-description {
     font-size: 1rem;
     font-family: math, sans-serif;
     color: white;
+    position: relative;
+    left: 0;
+    width: 86%;
+    top: 20%;
   }
 
   .see-program {
@@ -831,11 +842,12 @@
     text-align: center;
     justify-content: center;
     line-height: 66px;
-    background-color: #ec5242;
+    background-color: #ec524200;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     border: none;
     cursor: pointer;
+    text-decoration: underline;
   }
 
   .past-convention {
@@ -876,8 +888,8 @@
     top: auto;
     display: flex;
     flex-wrap: wrap;
+    top: 22rem;
   }
-
   .speaker {
     display: grid;
   }
@@ -941,7 +953,7 @@
     height: 32vh;
     background-color: #414246;
     position: absolute;
-    top: 200%;
+    top: 230%;
     margin-bottom: 15%;
   }
 
