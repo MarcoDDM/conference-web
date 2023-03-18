@@ -4,6 +4,25 @@
   width: 100vw;
 }
 
+.hr-main {
+  background-color: #ec5242;
+  width: 6%;
+  position: relative;
+  top: 3rem;
+  height: 3px;
+  border: none;
+}
+
+.hr-ft {
+  background-color: #ec5242;
+  width: 6%;
+  position: relative;
+  top: 3rem;
+  height: 3px;
+  border: none;
+  display: flex;
+}
+
 .active {
   display: flex;
 }
