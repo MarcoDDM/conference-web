@@ -536,6 +536,10 @@
   height: 20px;
   cursor: pointer;
 }
+.footer-container-landing {
+  display: flex;
+  justify-content: space-between;
+}
 
 @media (max-width: 767px) {
   .nav-dsk,
@@ -1033,12 +1037,6 @@
     margin-right: auto;
   }
 
-  .footer-container-landing {
-    margin-left: auto;
-    width: 50vw;
-    margin-right: auto;
-  }
-
   .footer-container-landing .footer-left img {
     filter: invert(0%);
   }
@@ -1051,7 +1049,7 @@
 
   .footer-landing {
     position: relative;
-    top: 105rem;
+    top: 122rem;
   }
 
   .footer-left img {
