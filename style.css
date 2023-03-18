@@ -198,7 +198,8 @@
 }
 
 .logo-presentation {
-  top: auto;
+  position: relative;
+  top: 15rem;
 }
 
 .logo-presentation .logo-title {
@@ -459,7 +460,7 @@
 
   /* width: 95%; */
   left: 3%;
-  top: 49rem;
+  top: 60rem;
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -543,6 +544,11 @@
   justify-content: space-between;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 767px) {
   .nav-dsk,
   .dark-nav,
@@ -585,10 +591,10 @@
 
 .footer-about {
   position: relative;
-  top: 60rem;
+  top: 67rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .footer {
@@ -995,7 +1001,7 @@
 
   .footer-about {
     position: relative;
-    top: 60rem;
+    top: 70rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
