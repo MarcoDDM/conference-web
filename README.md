@@ -88,7 +88,7 @@ It is a conference web on stoic phylosophy.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[![Project presentation: video demo]![Alt Text](https://cdn.loom.com/sessions/thumbnails/8587d539f8004bcb8b8ab1d5f756309d-with-play.gif)](https://www.loom.com/embed/8587d539f8004bcb8b8ab1d5f756309d)
+[![Loom video demo](https://cdn.loom.com/sessions/thumbnails/1e1bbfa9d468438091e43055e7d138dc-with-play.gif)](https://www.loom.com/share/1e1bbfa9d468438091e43055e7d138dc)
 
 - [Live Demo Link](https://marcoalmada.online/conference-web/)
 
