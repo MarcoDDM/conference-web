@@ -212,7 +212,11 @@ If you like this project you can follow me and give the project a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my coding partners. Also thank you to
+I would like to thank to my coding partners. Also thank you to Cindy Shin for the original design.
+
+You can know more about her work in the following url:
+
+<a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
