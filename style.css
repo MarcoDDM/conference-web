@@ -4,34 +4,6 @@
   width: 100vw;
 }
 
-.hr-main {
-  background-color: #ec5242;
-  width: 6%;
-  position: relative;
-  top: 3rem;
-  height: 3px;
-  border: none;
-}
-
-.hr-ft {
-  background-color: #ec5242;
-  width: 6%;
-  position: relative;
-  top: 3rem;
-  height: 3px;
-  border: none;
-  display: flex;
-}
-
-.hr-about {
-  background-color: #ec5242;
-  width: 6%;
-  position: relative;
-  top: 34rem;
-  height: 3px;
-  border: none;
-}
-
 .active {
   display: flex;
 }
@@ -220,6 +192,16 @@
   order: 0;
 }
 
+.logo-presentation .logo-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  width: 30%;
+  height: 3px;
+  background-color: #ec5242;
+}
+
 .logo-presentation .logo-message {
   position: relative;
   width: 95%;
@@ -262,6 +244,17 @@
   left: 50%;
   top: 5%;
   transform: translateX(-50%);
+}
+
+.program h2::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  bottom: 0;
+  left: 35%;
+  width: 30%;
+  height: 3px;
+  background-color: #ec5242;
 }
 
 .program-sections {
@@ -962,9 +955,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     font-family: "Lato", sans-serif;
-    font-weight: 600;
+    font-weight: 200;
+  }
+
+  .speakers .featured-title::after {
+    content: "";
+    top: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 30%;
+    height: 3px;
+    background-color: #ec5242;
   }
 
   .speakers {
