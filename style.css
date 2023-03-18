@@ -504,6 +504,7 @@
 
 @media (max-width: 767px) {
   .nav-dsk,
+  .dark-nav,
   .logo,
   .mobile-menu {
     display: none;
@@ -558,6 +559,19 @@
     display: none;
   }
 
+  .dark-nav {
+    height: auto;
+    background-color: #272a31;
+    margin-bottom: 21px;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+  }
+
+  .dark-nav ul li a {
+    color: white;
+  }
+
   .nav-dsk {
     float: right;
     width: 100vw;
@@ -574,7 +588,7 @@
   .nav-dsk ul li a {
     display: block;
     padding: 10px 15px;
-    color: #504e4e;
+    color: #3e3e3e;
     font-size: 16px;
     font-weight: bold;
     font-family: "Lato", "Circular Room", sans-serif;
@@ -600,6 +614,11 @@
   nav .nav-dsk ul {
     display: flow-root;
     width: 100%;
+  }
+
+  .dark-nav ul li a {
+    color: white;
+    font-weight: 100;
   }
 
   .head {
