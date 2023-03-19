@@ -67,11 +67,12 @@ const speakersData = [
 ];
 
 const speakersSection = document.getElementById('speakers');
+const speakersGrid = speakersSection.querySelector('.speakers-grid');
 
 speakersData.forEach((speaker) => {
   const speakerElement = document.createElement('div');
-  speakerElement.classList.add('speaker', speaker.speakerClass);
-
+  speakerElement.classList.add('speaker');
+  
   speakerElement.innerHTML = `
     <div class="speaker-img"><img src="${speaker.speakerImg}" alt="${speaker.speakerName}" srcset=""></div>
     <div class="speakers-info">
@@ -81,5 +82,5 @@ speakersData.forEach((speaker) => {
     </div>
   `;
 
-  speakersSection.appendChild(speakerElement);
+  speakersGrid.appendChild(speakerElement);
 });
