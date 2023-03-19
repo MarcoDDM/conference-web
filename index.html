@@ -14,23 +14,52 @@
 
 <body>
   <header>
-    <navbar class="nav-dsk">
+    <nav class="nav-dsk">
       <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+      <div class="dark-nav">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
       <ul>
-        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="about.html">Program</a></li>
+        <li><a href="about.html">Join</a></li>
+        <li><a href="about.html">Sponsors</a></li>
+        <li><a href="about.html">News</a></li>
         <li class="menu-highlight"><a href="#">Stoa Campaign</a></li>
       </ul>
-    </navbar>
+    </nav>
     <!-- Menu Mobile-->
-    <navbar class="nav"><img src="images/mobile_menu.png" alt="hamburger"></navbar>
+    <nav>
+      <a class="hamburger">
+        <img src="images/mobile_menu.png" alt="hamburger">
+      </a>
+    </nav>
+    <nav>
+
+      <ul class="mobile-menu">
+        <a class="close"><img src="images/cancel.png" alt=""></a>
+        <li class="menu-link"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">Program</a></li>
+        <li><a href="about.html">Join</a></li>
+        <li><a href="about.html">Sponsors</a></li>
+        <li><a href="about.html">News</a></li>
+        <li class="menu-highlight"><a href="#">Stoa Campaign</a></li>
+      </ul>
+    </nav>
   </header>
 
 
   <section class="head">
     <div class="headline-container">
       <sub>Hello! Sharing world!</sub>
-      <h1 class="headline">NEO STOICISM SUMMIT 2023</h1>
+      <h1 class="headline">NEO STOICISM <br>SUMMER SUMMIT <br>2023</h1>
       <p class="message">Join us this November in Buenos Aires for this philosophy conference that celebrates the stoics
         principls.
         This
@@ -38,7 +67,7 @@
         our shared mission to make the world a better place.</p>
       <div class="date-location">
         <p class="date">2023.11.12 ~ 17hs</p>
-        <p class="location">@Buenos Aires, Argentina</p>
+        <p class="location">@Buenos Aires, Argentina. Salon de Conferencias Municipal</p>
       </div>
     </div>
   </section>
@@ -73,69 +102,16 @@
       </div>
     </div>
     <div class="see-program">
-      <button type="button">See complete program</button>
+      <button type="button">SEE THE COMPLETE PROGRAM</button>
     </div>
   </section>
 
-  <section class="speakers">
+  <section id="speakers" class="speakers">
     <h3 class="featured-title">Featured Speakers</h3>
-
-    <div class="speaker speaker-one">
-      <div class="speaker-img"><img src="images/speaker_01.png" alt="Richard Dawkins" srcset=""></div>
-      <div class="speakers-info">
-        <div class="speaker-name">Richard Dawkins</div>
-        <div class="speaker-org">University of Oxford</div>
-        <div class="speaker-desc">"The Stoic Mind: Richard Dawkins on Applying Stoicism in a World of Science and
-          Reason"
-        </div>
-      </div>
-    </div>
-    <div class="speaker speaker-two">
-      <div class="speaker-img"><img src="images/speaker_02.png" alt="Robert Greene" srcset=""></div>
-      <div class="speakers-info">
-        <div class="speaker-name">Robert Greene</div>
-        <div class="speaker-org"> University of Wisconsin</div>
-        <div class="speaker-desc">"The Mastery of Stoicism: Using Ancient Wisdom to Achieve Personal Power"
-        </div>
-      </div>
-    </div>
-    <div class="speaker speaker-three">
-      <div class="speaker-img"><img src="images/speaker_03.png" alt="Robert Greene" srcset=""></div>
-      <div class="speakers-info">
-        <div class="speaker-name">Massimo Pigliucci</div>
-        <div class="speaker-org"> University of Connecticut</div>
-        <div class="speaker-desc">"Stoicism 101: A Practical Guide to Living with Virtue and Resilience"
-        </div>
-      </div>
-    </div>
-    <div class="speaker speaker-four">
-      <div class="speaker-img"><img src="images/speaker_04.png" alt="Ryan Holiday" srcset=""></div>
-      <div class="speakers-info">
-        <div class="speaker-name">Ryan Holiday</div>
-        <div class="speaker-org"> UC Riverside (dropout)</div>
-        <div class="speaker-desc">"The Art of Stillness: Stoic Principles for Modern Life"
-        </div>
-      </div>
-    </div>
-    <div class="speaker speaker-five">
-      <div class="speaker-img"><img src="images/speaker_05.png" alt="Robert Greene" srcset=""></div>
-      <div class="speakers-info">
-        <div class="speaker-name">Sophia Shapira</div>
-        <div class="speaker-org"> University of Pittsburgh</div>
-        <div class="speaker-desc">"The Feminine Face of Stoicism: Exploring Gender and Virtue in Ancient Philosophy"
-        </div>
-      </div>
-    </div>
-    <div class="speaker speaker-six">
-      <div class="speaker-img"><img src="images/speaker_06.png" alt="Robert Greene" srcset=""></div>
-      <div class="speakers-info">
-        <div class="speaker-name">Curtis Jackson</div>
-        <div class="speaker-org"> Southside Jamaica Queens</div>
-        <div class="speaker-desc">"From the Streets to Stoicism: How the Philosophy of Marcus Aurelius Changed My Life"
-        </div>
-      </div>
-    </div>
+    <div class="speakers-grid"></div>
   </section>
+
+
   <section class="partners">
     <h3>Partners</h3>
     <div class="partners-logos">
@@ -148,15 +124,18 @@
   </section>
 
   <footer class="footer-landing">
-    <div class="footer-left">
-      <img src="images/cc.png" alt="Logo">
-    </div>
-    <div class="footer-right">
-      <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+    <div class="footer-container-landing">
+      <div class="footer-left">
+        <img src="images/cc.png" alt="Logo">
+      </div>
+      <div class="footer-right">
+        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+      </div>
     </div>
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/5cb6a47bf5.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

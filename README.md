@@ -1,36 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
   <img src="soyMarco.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Capstone Project n1 | README</b></h3>
 
 </div>
 
@@ -55,41 +30,47 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Capstone Project #1 <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+<div align="center">
 
-**[your_project__name]** is a...
+  <img src="web_mockup.png" alt="logo" width="450"  height="auto" />
+  <br/>
+
+  <h3><b>Capstone Project n1 | README</b></h3>
+
+</div>
+
+**Conference web** is a project for Microverse bootcamp to implement all the learnd about Mobile first and responsive design...
+
+It is a conference web on stoic phylosophy.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="#">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Github</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="#">Github</a></li>
   </ul>
 </details>
 
@@ -97,11 +78,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Mobile version**
+- **Headline**
+- **Introduction to the portfolio**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,17 +88,15 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+[![Loom video demo](https://cdn.loom.com/sessions/thumbnails/27a9b9cc1a4248028ed9935499a87995-with-play.gif)](https://www.loom.com/share/27a9b9cc1a4248028ed9935499a87995)
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://marcoalmada.online/conference-web/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -139,14 +116,8 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+cd my-folder
+git clone git@github.com:myaccount/my-project.git
 
 ### Install
 
@@ -203,19 +174,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Author**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
+- Twitter: [@nerdpiola](https://twitter.com/nerdpiola)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/marcoalmadaar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +186,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +204,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project you can follow me and give the project a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,25 +212,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank to my coding partners. Also thank you to Cindy Shin for the original design.
 
-I would like to thank...
+You can know more about her work in the following url:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+<a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,7 +224,9 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+Original design idea by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a>.
+
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
