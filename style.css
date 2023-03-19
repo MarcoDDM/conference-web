@@ -352,7 +352,6 @@
   height: auto;
   position: relative;
   top: 86rem;
-
 }
 
 .speakers .featured-title {
@@ -412,17 +411,9 @@
 
 .speakers-info {
   position: relative;
-  left: 120%;
   top: 40%;
   right: 0%;
-  width: 185px;
-  font-size: 10px;
-}
-.speakers-info {
-  position: relative;
   left: 50%;
-
-  /* right: 0%; */
   width: 185px;
   font-size: 10px;
 }
@@ -500,7 +491,7 @@
   height: 32vh;
   background-color: #414246;
   position: absolute;
-  top: 290%;  
+  top: 290%;
   margin-bottom: 15%;
 }
 
@@ -551,6 +542,14 @@
   justify-content: space-between;
 }
 
+.footer-about {
+  position: relative;
+  top: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 @media (max-width: 767px) {
   .nav-dsk,
   .dark-nav,
@@ -589,14 +588,6 @@
     width: 192px;
     text-align: right;
   }
-}
-
-.footer-about {
-  position: relative;
-  top: 67rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .footer {
@@ -953,6 +944,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   @media only screen and (min-width: 768px) {
     .speakers-grid {
       display: grid;
@@ -964,31 +956,30 @@
       margin-right: auto;
       position: relative;
       height: 60vh;
-  }
+    }
 
-  .speakers .featured-title {
-    height: auto;
-    position: absolute;
-    font-size: 1.4rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 600;
-    text-align: center;
-    left: 50%;
-    top: 10%;
-    transform: translateX(-50%);
-  }
+    .speakers .featured-title {
+      height: auto;
+      position: absolute;
+      font-size: 1.4rem;
+      font-family: "Lato", sans-serif;
+      font-weight: 600;
+      text-align: center;
+      left: 50%;
+      top: 10%;
+      transform: translateX(-50%);
+    }
 
-
-  .speakers .featured-title:after {
-    content: "";
-    position: absolute;
-    top: 2rem;
-    bottom: 0;
-    left: 35%;
-    width: 30%;
-    height: 3px;
-    background-color: #ec5242;
-}
+    .speakers .featured-title::after {
+      content: "";
+      position: absolute;
+      top: 2rem;
+      bottom: 0;
+      left: 35%;
+      width: 30%;
+      height: 3px;
+      background-color: #ec5242;
+    }
 
     .speaker {
       display: flex;
@@ -996,7 +987,7 @@
       margin: 0 auto;
       max-width: 400px;
       margin-bottom: 6%;
-  }
+    }
 
     .speaker-img {
       flex: 0 0 30%;
@@ -1018,36 +1009,34 @@
     .speaker-org {
       font-style: italic;
       font-size: 16px;
-      margin-bottom: 10px;top: 6.8rem;
+      margin-bottom: 10px;
+      top: 6.8rem;
       left: 5rem;
     }
 
     .speaker-desc {
-
-        font-size: 1rem;
-        position: relative;
-        left: 5rem;
-        text-align: left;
-        top: 7rem;
-      }
-    }
-    .footer-container-landing {
-      margin-left: auto;
-      width: 100vw;
-      margin-right: auto;
-    }
-    
-    .partners {
-      width: 100vw;
-      height: 32vh;
-      background-color: #414246;
-      position: absolute;
-      top: 230%;  
-      margin-bottom: 15%;
+      font-size: 1rem;
+      position: relative;
+      left: 5rem;
+      text-align: left;
+      top: 7rem;
     }
   }
 
+  .footer-container-landing {
+    margin-left: auto;
+    width: 100vw;
+    margin-right: auto;
+  }
 
+  .partners {
+    width: 100vw;
+    height: 32vh;
+    background-color: #414246;
+    position: absolute;
+    top: 230%;
+    margin-bottom: 15%;
+  }
 
   .partners-logos img {
     width: calc(60% / 5);
@@ -1059,7 +1048,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 50rem;
+    top: 67rem;
     height: 30vh;
     background: #3e3e3e;
     margin-left: auto;
@@ -1077,7 +1066,7 @@
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-}
+  }
 
   .footer-container {
     margin-left: auto;
@@ -1111,12 +1100,6 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-family: "Circular-Loom", sans-serif;
-  }
-
-  .footer-container-landing {
-    margin-left: auto;
-    width: 100vw;
-    margin-right: auto;
   }
 
   .footer-container-landing .footer-left img {
