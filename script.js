@@ -72,7 +72,7 @@ const speakersGrid = speakersSection.querySelector('.speakers-grid');
 speakersData.forEach((speaker) => {
   const speakerElement = document.createElement('div');
   speakerElement.classList.add('speaker');
-  
+
   speakerElement.innerHTML = `
     <div class="speaker-img"><img src="${speaker.speakerImg}" alt="${speaker.speakerName}" srcset=""></div>
     <div class="speakers-info">
